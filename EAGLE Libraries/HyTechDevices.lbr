@@ -9723,6 +9723,20 @@ Note: Mode connected to GND per page 70 of &lt;a href="https://www.analog.com/me
 </technology>
 </technologies>
 </device>
+<device name="" package="1812-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="0.1UF">
+<attribute name="DKPN" value="399-C1812W104KDRAC7800TR-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value=""/>
+<attribute name="MPN" value="C1812W104KDRAC7800"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="LED_?_*" prefix="D">
@@ -12078,6 +12092,21 @@ Leakage Inductance: 0.50 uH max
 <attribute name="MOPN" value="652-1.5SMBJ30A"/>
 <attribute name="MPN" value=" 1.5SMBJ30A"/>
 <attribute name="VOLTAGE" value="30V"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD323F" package="SOD323F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="MM3Z75VBTR-ND"/>
+<attribute name="MANUFACTURER" value="ONSEMI"/>
+<attribute name="MOPN" value=""/>
+<attribute name="MPN" value="MM3Z75VB"/>
+<attribute name="VOLTAGE" value="75V"/>
 </technology>
 </technologies>
 </device>
@@ -15214,6 +15243,20 @@ CPC1020NTR
 </technology>
 </technologies>
 </device>
+<device name="SMA" package="SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="US1M-FDITR-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MOPN" value=""/>
+<attribute name="MPN" value="US1M-13-F"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RELAY_SOLIDSTATE_NC_*" prefix="K">
@@ -15493,6 +15536,64 @@ CPC1020NTR
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MOPN" value="595-SN74LVC00MDCKREP"/>
 <attribute name="MPN" value="SN74LVC1G00MDCKREP"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRANSFORMER(3W)" prefix="T">
+<description>Sumida 3 Winding Flyback Transformer
+https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-2199694.pdf</description>
+<gates>
+<gate name="G$1" symbol="TRANSFORMER(3W)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQ2620">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10,11" pad="10 11"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="8,9" pad="8 9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Sumida"/>
+<attribute name="MOPN" value="851-11328-T061"/>
+<attribute name="MPN" value="11328-T061"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT8315" prefix="U">
+<gates>
+<gate name="G$1" symbol="LT8315" x="12.7" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="TSSP-20(16)">
+<connects>
+<connect gate="G$1" pin="BIAS" pad="9"/>
+<connect gate="G$1" pin="DCM" pad="10"/>
+<connect gate="G$1" pin="DRAIN" pad="1 2 3"/>
+<connect gate="G$1" pin="EN/UVLO" pad="17"/>
+<connect gate="G$1" pin="FB" pad="12"/>
+<connect gate="G$1" pin="GND" pad="15 19 20 P$1"/>
+<connect gate="G$1" pin="INTVCC" pad="8"/>
+<connect gate="G$1" pin="IREG" pad="14"/>
+<connect gate="G$1" pin="SMODE" pad="16"/>
+<connect gate="G$1" pin="SOURCE" pad="18"/>
+<connect gate="G$1" pin="TC" pad="11"/>
+<connect gate="G$1" pin="VC" pad="13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Analog Devices"/>
+<attribute name="MOPN" value="584-LT8315HFEPBF"/>
+<attribute name="MPN" value="LT8315HFE#PBF"/>
 </technology>
 </technologies>
 </device>
