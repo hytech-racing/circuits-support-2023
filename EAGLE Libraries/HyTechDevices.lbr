@@ -10874,6 +10874,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
+<technology name="42.2K">
+<attribute name="DKPN" value="P20156TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4222V"/>
+<attribute name="MPN" value="ERJ-PB3B4222V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="42.2k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="91.86V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
 <technology name="43K">
 <attribute name="DKPN" value="311-43.0KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -11039,6 +11050,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="93.1K">
+<attribute name="DKPN" value="P20197TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B9312V"/>
+<attribute name="MPN" value="ERJ-PB3B9312V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="93.1k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="136.46V"/>
+</technology>
 <technology name="DNP">
 <attribute name="DKPN" value=""/>
 <attribute name="MANUFACTURER" value=""/>
@@ -11110,6 +11132,17 @@ Leakage Inductance: 0.50 uH max
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="0.3">
+<attribute name="DKPN" value="P.3BITR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-U6QJR30V"/>
+<attribute name="MPN" value="ERJ-U6QJR30V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="0.3"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.27V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="0.62">
 <attribute name="DKPN" value="311-.62SCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
