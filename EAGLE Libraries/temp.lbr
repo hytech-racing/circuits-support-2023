@@ -196,32 +196,32 @@
 </package>
 </packages>
 <symbols>
-<symbol name="MAX6176AASA">
+<symbol name="MAX6176*">
 <description>MAX6173–MAX6177
 &lt;br&gt;&lt;&gt;
 &lt;a href = "https://www.mouser.com/datasheet/2/256/MAX6173-MAX6177-1515925.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pin name="VIN" x="0" y="17.78" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="OUT" x="12.7" y="10.16" length="short" direction="sup" rot="R180"/>
-<pin name="TRIM" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
-<pin name="GND" x="0" y="-12.7" visible="pad" length="short" direction="pwr" rot="R90"/>
-<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<pin name="TEMP" x="-12.7" y="-5.08" length="short" direction="in"/>
-<text x="-10.16" y="15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="12.7" size="1.778" layer="96">VIN</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="96">GND</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="95">&gt;MAX6176AASA+</text>
+<pin name="VIN" x="10.16" y="2.54" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="OUT" x="22.86" y="-5.08" length="short" direction="sup" rot="R180"/>
+<pin name="TRIM" x="22.86" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="10.16" y="-20.32" visible="pad" length="short" direction="pwr" rot="R90"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="TEMP" x="-2.54" y="-12.7" length="short" direction="in"/>
+<text x="0" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-3.048" size="1.778" layer="96" align="bottom-center">VIN</text>
+<text x="10.16" y="-16.764" size="1.778" layer="96" align="bottom-center">GND</text>
+<text x="0" y="-18.542" size="1.778" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VOLTAGE_REFERENCE">
+<deviceset name="VOLTAGE_REFERENCE_?_*">
 <description>MAX6173–MAX6177
 &lt;br&gt;&lt;&gt;
 &lt;a href = "https://www.mouser.com/datasheet/2/256/MAX6173-MAX6177-1515925.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="MAX6176AASA" x="0" y="0"/>
+<gate name="G$1" symbol="MAX6176*" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC-08(NARROW,0.15&quot;)">
